@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.hero {
+  background-image: url(https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpbGRyZW4lMjB3aXRoJTIwaGVscHxlbnwwfHwwfHx8MA%3D%3D);
+  /* background-repeat: none; */
+}
+.hero-content img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 15px;
+}
+footer img {
+  width: 150px;
+  height: 50px;
+}
