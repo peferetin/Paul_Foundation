@@ -13,34 +13,35 @@
     />
     <title>Paul's Foundation</title>
   </head>
-  <body class="container">
-    <header>
-      <nav class="flex justify-between bg-slate-600 p-10">
-        <div class="logo w-1/6 h-14 w-14">
-          <img src="images/help_logo.png" alt="logo" />
+  <body>
+    <header class="">
+      <nav class="flex justify-between bg-orange-200  ">
+        <div class="logo w-1/6 logo-image rounded-">
+          <img class="rounded-3xl pt-2 pl-2" src="images/help_logo.png" alt="logo " />
         </div>
         <div class="menu w-3/5">
-          <ul class="flex justify-evenly">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Our Projects</a></li>
-            <li><a href="#">Contact Us</a></li>
+          <ul class="flex justify-evenly p-6">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">CONTACT US</a></li>
           </ul>
         </div>
         <button
-          class="w-1/6 py-3 px-5 font-medium text-base bg-green-600 hover:bg-violet-600 hover:border-blue-600 hover:border text-black hover:text-black-600 rounded-sm"
+          class="w-1/6   font-bold text-xl  bg-green-600 hover:bg-violet-600 hover:border-blue-600 hover:border text-black hover:text-black-600 rounded-xl" 
         >
           Donate
         </button>
       </nav>
     </header>
-    <main class="">
-      <section class="hero bg-no-repeat bg-cover bg-center w-full h-96 mt-10">
-        <div class="text-center flex p-10 justify-between items-center">
-          <h1 class="font-bold text-6xl text-white w-1/2">
+    <main>
+      <div class="container">
+      <section class="hero bg-no-repeat bg-cover bg-center w-full h-96 my-12 ">
+        <div class="text-center flex p-10 justify-between items-center flex-wrap ">
+          <h1 class="font-bold text-6xl text-zinc-50 w-full lg:w-1/2">
             "Cherish, protect, empower, thrive."
           </h1>
-          <p class="w-2/5 text-lg text-white">
+          <p class="w-full lg:w-2/5 text-lg text-zinc-50">
             "Every child deserves a chance to learn, grow, and dream. Let us
             unite to create a world where the laughter of children drowns out
             the cries of despair, and their future is filled with hope, love,
@@ -48,15 +49,15 @@
           </p>
         </div>
       </section>
-      <section class="mt-10">
+      <section class="my-10">
         <div class="hero-content flex">
           <div class="hero-image w-2/3 flex flex-wrap">
-            <img src="./Images/hero1.jpg" alt="" />
-            <img src="./Images/hero2.jpg" alt="" />
-            <img src="./Images/hero3.jpeg" alt="" />
-            <img src="./Images/hero4.jpeg" alt="" />
-            <img src="./Images/hero5.jpeg" alt="" />
-            <img src="./Images/hero6.jpg" alt="" />
+            <img class="rounded-xl"  src="./Images/hero1.jpg" alt="" />
+            <img  class="rounded-xl" src="./Images/hero2.jpg" alt="" />
+            <!-- <img src="./Images/hero3.jpeg" alt="" /> -->
+            <img class="rounded-xl"  src="./Images/hero4.jpeg" alt="" />
+            <img  class="rounded-xl" src="./Images/hero5.jpeg" alt="" />
+            <!-- <img src="./Images/hero6.jpg" alt="" /> -->
           </div>
           <div class="w-1/3">
             <h2 class="font-bold text-4xl">Our Mission</h2>
@@ -65,22 +66,22 @@
               our mission. Learn more about them below.
             </p>
             <div class="flex flex-col h-96">
-              <h3 class="font-bold leading-7 mt-10">
-                <a href="#">Saving Children</a>
+              <h3 class="font-bold leading-7 mt-10 text-green-700">
+                <a href="#">Saving Children <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
               </h3>
               <p class="mt-3">
                 Our main mission is to save and rescue permanently displaced
                 children.
               </p>
-              <h3 class="font-bold leading-7 mt-10">
-                <a href="#">Peace On The Planet</a>
+              <h3 class="font-bold leading-7 mt-12 text-green-700">
+                <a href="#">Peace On The Planet <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
               </h3>
               <p class="mt-3">
                 By working with our partners, we aim to establish peaceful
                 relationships.
               </p>
-              <h3 class="font-bold leading-7 mt-10">
-                <a href="#">Care & Protection</a>
+              <h3 class="font-bold leading-7 mt-10 text-green-700">
+                <a href="#">Care & Protection <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
               </h3>
               <p class="mt-3">
                 We provide global care and protection to support children all
@@ -90,57 +91,88 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="my-20">
         <div>
-          <h3></h3>
-          <p></p>
+          <h3 class="font-bold text-4xl text-center ">Latest Causes</h3>
+          <p class="text-lg text-center mt-5">
+            <span class="block" >At Paul's Foundation, there are various charity causes and projects,</span>
+             <span class="block" >in which you can always take part. Feel free to learn about them</span>
+              <span class="block" >   below or browse our website for more information.</span>
+            
+         
+          </p> 
         </div>
-        <div>
-          <div>
-            <img src="" alt="" />
+        <div class="flex mt-10">
+          <div class="flex flex-col items-center m-2">
+            <img  class="rounded-xl"
+              src="https://livedemo00.template-help.com/wt_51679/images/causes-01-372x396.jpg"
+              alt=""
+            />
+            <p class="font-bold text-xl mt-7 leading-7">
+              Clean Water for People
+            </p>
+            <button class="mt-3 py-2 px-5 font-medium text-base bg-green-600 hover:bg-violet-600 hover:border-blue-600 hover:border text-black hover:text-black-600 rounded-xl" ">Donate</button>
           </div>
-          <div>
-            <img src="" alt="" />
+          <div class="flex flex-col items-center m-2">
+            <img class="rounded-xl"
+              src="https://livedemo00.template-help.com/wt_51679/images/causes-02-372x396.jpg"
+              alt=""
+            />
+            <p class="font-bold text-xl mt-7 leading-7">Shelter for People</p>
+            <button class="mt-3 py-2 px-5 font-medium text-base bg-green-600 hover:bg-violet-600 hover:border-blue-600 hover:border text-black hover:text-black-600 rounded-xl" ">Donate</button>
           </div>
-          <div>
-            <img src="" alt="" />
+          <div class="flex flex-col items-center m-2">
+            <img class="rounded-xl"
+              src="https://livedemo00.template-help.com/wt_51679/images/causes-03-372x396.jpg"
+              alt=""
+            />
+            <p class="font-bold text-xl mt-7 leading-7">
+              Clothing for Children
+            </p>
+            <button class="mt-3 py-2 px-5 font-medium text-base bg-green-600 hover:bg-violet-600 hover:border-blue-600 hover:border text-black hover:text-black-600 rounded-xl" ">Donate</button>
           </div>
         </div>
       </section>
+      </div>
+      </main>
       <footer
-        class="p-10 flex flex-col h-96 bg-gray-600 text-white text-3xl w-full items-center"
+        class=" flex flex-col h-96 bg-gray-950 text-zinc-50  w-full "
       >
-        <img src="./Images/help_logo.png " alt="" />
-        <div class="footer-content">
-          <ul class="justify-evenly">
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">CAUSES</a></li>
-            <li><a href="#">GALLERY</a></li>
-            <li><a href="#">TEAM</a></li>
-            <li><a href="#">CONTACTS</a></li>
+        <div class="self-center mt-6 p-6">
+          <img class="" src="./Images/help_logo.png " alt="" />
+        </div>
+        <div class="footer-content text-2xl">
+          <ul class="flex w-full justify-evenly mt-10   ">
+            <li><a class="block" href="#">ABOUT US</a></li>
+            <li><a class="block" href="#">CAUSES</a></li>
+            <li><a class="block" href="#">GALLERY</a></li>
+            <li><a class="block" href="#">TEAM</a></li>
+            <li><a class="block" href="#">CONTACTS</a></li>
           </ul>
         </div>
         <div class="footer-social">
-          <ul class="flex">
+          <ul class="flex justify-center mt-10 p-5">
             <li>
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a class="me-4 text-2xl " href="#"><i class="fab fa-facebook-f"></i></a>
             </li>
             <li>
-              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a  class="me-4 text-2xl " href="#"><i class="fab fa-whatsapp"></i></a>
             </li>
             <li>
-              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a  class="me-4 text-2xl " href="#"><i class="fab fa-instagram"></i></a>
             </li>
             <li>
-              <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+              <a  class="me-4 text-2xl" href="#"><i class="fa-brands fa-whatsapp"></i></a>
             </li>
             <li>
-              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a  class="me-4 text-2xl" href="#"><i class="fa-brands fa-youtube"></i></a>
             </li>
           </ul>
         </div>
-        <p>&copy;2023 Paul's Foundation. All Rights Reserved</p>
+        <p class="text-center mt-10">
+          &copy;2023 Paul's Foundation. All Rights Reserved
+        </p>
       </footer>
-    </main>
+    
   </body>
 </html>
